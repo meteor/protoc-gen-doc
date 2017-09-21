@@ -3,7 +3,7 @@ package gendoc
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/pseudomuto/protoc-gen-doc/parser"
+	"github.com/meteor/protoc-gen-doc/parser"
 	"sort"
 	"strings"
 )

@@ -16,7 +16,7 @@ package main
 import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/plugin"
-	"github.com/pseudomuto/protoc-gen-doc"
+	"github.com/meteor/protoc-gen-doc"
 	"io/ioutil"
 	"log"
 	"os"

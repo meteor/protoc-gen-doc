@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/plugin"
-	"github.com/pseudomuto/protoc-gen-doc/parser"
+	"github.com/meteor/protoc-gen-doc/parser"
 	"io/ioutil"
 	"path"
 	"strings"

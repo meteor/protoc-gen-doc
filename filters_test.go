@@ -1,7 +1,7 @@
 package gendoc_test
 
 import (
-	"github.com/pseudomuto/protoc-gen-doc"
+	"github.com/meteor/protoc-gen-doc"
 	"github.com/stretchr/testify/suite"
 	html "html/template"
 	"testing"

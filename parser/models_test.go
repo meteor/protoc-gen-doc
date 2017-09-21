@@ -1,8 +1,8 @@
 package parser_test
 
 import (
-	"github.com/pseudomuto/protoc-gen-doc/parser"
-	"github.com/pseudomuto/protoc-gen-doc/test"
+	"github.com/meteor/protoc-gen-doc/parser"
+	"github.com/meteor/protoc-gen-doc/test"
 	"github.com/stretchr/testify/suite"
 	"testing"
 )

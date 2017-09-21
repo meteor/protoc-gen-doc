@@ -1,8 +1,8 @@
 package gendoc_test
 
 import (
-	"github.com/pseudomuto/protoc-gen-doc/parser"
-	"github.com/pseudomuto/protoc-gen-doc/test"
+	"github.com/meteor/protoc-gen-doc/parser"
+	"github.com/meteor/protoc-gen-doc/test"
 	"testing"
 )
 
