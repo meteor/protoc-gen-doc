@@ -23,8 +23,6 @@ func ParaFilter(content string) string {
 
 // NoBrFilter removes CR and LF from content
 func NoBrFilter(content string) string {
-	withoutCR := strings.Replace(content, "\r", "", -1)
-	withoutLF := strings.Replace(withoutCR, "\n", "", -1)
-
-	return strings.Replace(withoutLF, "\r\n", "", -1)
+	withoutCR := strings.Replace(content, "\r", " ", -1)
+	return strings.Replace(withoutCR, "\n", " ", -1)
 }
