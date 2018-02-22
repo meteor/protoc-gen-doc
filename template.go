@@ -151,6 +151,7 @@ type MessageField struct {
 	Type         string `json:"type"`
 	LongType     string `json:"longType"`
 	FullType     string `json:"fullType"`
+	IsMap        bool   `json:"isMap"`
 	DefaultValue string `json:"defaultValue"`
 }
 
@@ -299,6 +300,7 @@ func parseMessageField(pf *parser.Field) *MessageField {
 		Type:         baseName(pf.Type),
 		LongType:     strings.TrimPrefix(pf.Type, pf.Package+"."),
 		FullType:     pf.Type,
+		IsMap:        pf.IsMap,
 		DefaultValue: pf.DefaultValue,
 	}
 }
