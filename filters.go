@@ -36,3 +36,12 @@ func NoBrFilter(content string) string {
 	}
 	return strings.Join(paragraphs, "\n\n")
 }
+
+// NoConfigFilter is an Apollo-specific filter to remove `Config.` from every
+// message name.
+func NoConfigFilter(name string) string {
+	if name == "Config" {
+		return "Top level options"
+	}
+	return strings.TrimPrefix(name, "Config.")
+}
